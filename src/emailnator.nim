@@ -1,4 +1,4 @@
-import asyncdispatch, httpclient, json, strutils, htmlparser, xmltree
+import asyncdispatch, httpclient, json, strutils
 
 const api = "https://api.emailnator.com/api"
 var headers = newHttpHeaders({
